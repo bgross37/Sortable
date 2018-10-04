@@ -71,7 +71,7 @@
 		$ = win.jQuery || win.Zepto,
 		Polymer = win.Polymer,
 
-		captureMode = false,
+		captureMode = true,
 		passiveMode = false,
 
 		supportDraggable = ('draggable' in document.createElement('div')),
